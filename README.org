@@ -1,0 +1,23 @@
+#+TITLE: µ tpl
+
+#+ATTR_HTML: title="npm version"
+#+ATTR_HTML: alt="npm version"
+[[https://www.npmjs.com/package/utpl][file:https://img.shields.io/npm/v/utpl.svg]]
+
+#+ATTR_HTML: title="dependencies"
+#+ATTR_HTML: alt="dependencies"
+[[https://david-dm.org/liuchong/node-utpl][file:https://david-dm.org/liuchong/node-utpl.svg]]
+
+#+ATTR_HTML: title="Build Status"
+#+ATTR_HTML: alt="Build Status"
+[[https://travis-ci.org/liuchong/node-utpl][file:https://api.travis-ci.org/liuchong/node-utpl.svg?branch=master]]
+
+#+ATTR_HTML: title="codecov"
+#+ATTR_HTML: alt="codecov"
+[[https://codecov.io/gh/liuchong/node-utpl][file:https://codecov.io/gh/liuchong/node-utpl/branch/master/graph/badge.svg]]
+
+* Description
+A small (µ) starter/template to start a nodejs project
+
+* License
+MIT

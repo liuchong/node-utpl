@@ -1,0 +1,53 @@
+{
+  "name": "utpl",
+  "version": "0.0.1",
+  "description": "A small (µ) starter/template to start a nodejs project",
+  "main": "index.js",
+  "scripts": {
+    "watch": "nodemon --config ./nodemon-config.json",
+    "start": "node ./index.js",
+    "dev": "NODE_ENV=\"development\" DEBUG=* yarn watch --exec \"yarn start --inspect\"",
+    "test": "yarn lint && yarn jest",
+    "lint": "eslint --ext .js ./index.js ./lib",
+    "jest": "jest"
+  },
+  "keywords": [
+    "µ",
+    "u",
+    "mini",
+    "template",
+    "starter"
+  ],
+  "author": "Liu Chong <mail@clojure.cn>",
+  "bugs": {
+    "url": "https://github.com/liuchong/node-utpl/issues"
+  },
+  "homepage": "https://github.com/liuchong/node-utpl#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/liuchong/node-utpl"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "babel-eslint": "^8.0.3",
+    "eslint": "^4.13.1",
+    "eslint-config-standard": "^11.0.0-beta.0",
+    "eslint-config-standard-jsx": "^4.0.2",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-jest": "^21.4.2",
+    "eslint-plugin-node": "^5.2.1",
+    "eslint-plugin-promise": "^3.6.0",
+    "eslint-plugin-react": "^7.5.1",
+    "eslint-plugin-standard": "^3.0.1",
+    "jest": "^21.2.1",
+    "nodemon": "^1.12.5"
+  },
+  "dependencies": {
+    "debug": "^3.1.0"
+  },
+  "jest": {
+    "coverageDirectory": "./coverage/",
+    "collectCoverage": true,
+    "verbose": true
+  }
+}
